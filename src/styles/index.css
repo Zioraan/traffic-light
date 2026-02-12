@@ -1,11 +1,50 @@
-/* 
+.traffic-light-rod {
+    height: 10dvh;
+    width: 3dvw;
+    background-color: black;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.traffic-light-box {
+    width: 20dvw;
+    background-color: black;
+    padding: 10px;
+}
 
-*/
+.traffic-light{
+    aspect-ratio: 1/1;
+    width: 50%;
+    margin: 20px 0;
+    border-radius: 50%;
+}
+
+.green-light{
+    background-color: green;
+}
+
+.yellow-light{
+    background-color: yellow;
+}
+
+.red-light{
+    background-color: red;
+}
+
+.purple-light{
+    background-color: purple;
+}
+
+.active-green{
+    box-shadow: 0 0 40px 20px lightgreen;
+}
+
+.active-red{
+    box-shadow: 0 0 40px 20px lightcoral;
+}
+
+.active-yellow{
+    box-shadow: 0 0 40px 20px rgb(231, 231, 121);
+}
+
+.active-purple{
+    box-shadow: 0 0 40px 20px lightpink;
+}
